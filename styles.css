@@ -350,4 +350,30 @@ footer {
     .hamburger.active span:nth-child(3) {
         transform: translateY(-9px) rotate(-45deg);
     }
+
+    .email-link {
+        display: block;
+        margin: 1rem auto;
+        width: fit-content;
+        text-align: center;
+    }
+}
+
+@media (max-width: 444px) {
+    .email-link {
+        padding: 1rem;
+        font-size: 0.9rem;
+        margin: 1rem auto;
+        width: calc(100% - 2rem);
+        max-width: 300px;
+        word-break: break-all;
+    }
+
+    .contact-info {
+        padding: 2rem 0.5rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
