@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tietokonevelho</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Koti</a></li>
+                <li><a href="#about">Tietoja</a></li>
+                <li><a href="#projects">Projekteja</a></li>
+                <li><a href="#contact">Yhteystiedot</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <canvas id="matrix-canvas"></canvas>
+            <div class="crt-overlay"></div>
+            <div class="hero-content">
+                <h1>TIETOKONEVELHO</h1>
+                <p>Rakentamassa dystooppisinta tulevaisuutta.</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>Tietoja</h2>
+            <h3>Kuka tai mikä on tietokonevelho?</h3>
+            <p>Olen järjestelmän ylläpitäjä ja ikuinen taistelija teknologian oikkuja vastaan. Pyöritän palvelimia, hallinnoin verkkoja ja itsehostattuja ratkaisuja, koska luotan itseeni enemmän kuin pilvipalveluihin. Jos jokin menee rikki, se on joko ominaisuus tai hauska ongelma ratkaistavaksi. Tietokoneethan ovat aina oikeassa.</p>
+            <p>Aloitin tämän projektin aikoinaan harrastusmielessä.</p> 
+        </section>
+        
+        <section id="projects">
+            <h2>Projekteja</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Docker Configurations</h3>
+                    <p>Kokoelma Docker-compose tiedostoja eri palveluille, mukaan lukien Minecraft-palvelin automaattisella sammutuksella ja Dynmap-tuella.</p>
+                    <div class="links">
+                        <a href="https://github.com/makkara199/docker-compose-files" target="_blank">GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Tietokonevelho Website</h3>
+                    <p>Henkilökohtainen verkkosivuni, joka on rakennettu HTML:llä, CSS:llä ja JavaScriptillä. Sivuston ulkoasu on inspiroitunut Matrixista.</p>
+                    <div class="links">
+                        <a href="https://github.com/makkara199/tietokonevelho-homepage" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Ota yhteyttä</h2>
+            <div class="contact-info">
+                <p>Saat minut kiinni sähköpostilla:</p>
+                <a href="mailto:contact@tietokonevelho.com" class="email-link">contact@tietokonevelho.com</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 TIETOKONEVELHO. KAIKKI OIKEUDET PIDÄTETÄÄN.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
